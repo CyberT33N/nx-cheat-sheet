@@ -17,12 +17,30 @@
 
 
 
+### releaseTagPattern
+- https://nx.dev/docs/reference/nx-json#release-tag
+- docs\features\releases\tags\nx-json.md
 
 
 
 
 
 
+
+<br><br>
+
+
+
+
+### git
+- https://nx.dev/docs/reference/nx-json#git
+- docs\features\releases\git\nx-json.md
+
+
+
+
+
+<br><br>
 
 
 
