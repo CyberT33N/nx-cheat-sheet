@@ -9,7 +9,7 @@
 - docs\features\releases\version\nx-json.md
 
 #### generatorOptions
-https://nx.dev/docs/reference/nx-json#version
+- https://nx.dev/docs/reference/nx-json#version
 
 ```json
 {

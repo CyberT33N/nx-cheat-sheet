@@ -1,15 +1,11 @@
 # Nx Commands
 
 ### nx release
-- docs\reference\nx-commands.md
+- docs\features\releases\nx-commands.md
 - https://nx.dev/docs/reference/nx-commands#nx-release
 
-
-
-
-
-
-
-#### nx release plan
+#### nx release plamn
 - https://nx.dev/docs/reference/nx-commands#nx-release-plan
-- docs\features\releases\plan\nx-commands.md
+```shell
+nx release plan 
+```

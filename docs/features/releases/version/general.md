@@ -5,12 +5,6 @@
 - docs\features\releases\version\version-plans.md
 
 
-
-
-
-<br><br>
-
-
 ## Conventional Commits
 - docs\features\releases\version\conventional-commits.md
 
