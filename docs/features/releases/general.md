@@ -2,7 +2,12 @@
 - Also, wenn ich das richtig verstanden habe, kann man NX Release auch ohne Monorepo als eigenständiges Feature benutzen?
 
 ## Docs
+- docs\guides\nx-release
 - https://nx.dev/docs/features/manage-releases
+- https://nx.dev/docs/guides/nx-release/release-npm-packages
+- https://nx.dev/docs/guides/nx-release/release-docker-images
+- https://nx.dev/docs/guides/nx-release/automate-github-releases
+- https://nx.dev/docs/guides/nx-release/automate-gitlab-releases
 
 ## Commands
 - docs\features\releases\commands.md
