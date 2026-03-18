@@ -2,7 +2,8 @@
 
 
 ## Docs
-- https://nx.dev/docs/guides/nx-release/programmatic-api#_top
+- https://nx.dev/docs/features/manage-releases#using-the-programmatic-api-for-nx-release
+- https://nx.dev/docs/guides/nx-release/programmatic-api
 
 ## Guides
 - https://www.epicweb.dev/tutorials/versioning-and-releasing-npm-packages-with-nx/nx/creating-custom-release-scripts-with-nxs-api

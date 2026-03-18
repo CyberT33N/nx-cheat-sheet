@@ -21,7 +21,8 @@
 ## Programmatic API
 - docs\features\releases\programmatic-api\general.md
 
-
+## Registry
+- docs\features\releases\registry\general.md
 
 
 

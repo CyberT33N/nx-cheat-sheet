@@ -43,8 +43,56 @@ RUN npm --prefix api --omit=dev -f install
 CMD [ "node", "app" ]
 ```
 
+
+
+
+
 ## Create docker image
 ```shell
 nx build api
 nx docker:build api
 ```
+
+
+
+
+## Set up a new release group
+
+```json
+{
+  "release": {
+    "releaseTag": {
+      "pattern": "release/{projectName}/{version}",
+    },
+    "groups": {
+      "apps": {
+        "projects": ["api"],
+        "projectsRelationship": "independent",
+        "docker": {
+          // This should be true to skip versioning with other tools like NPM or Rust crates.
+          "skipVersionActions": true,
+          // You can also use a custom registry like `ghcr.io` for GitHub Container Registry.
+          // `docker.io` is the default so you could leave this out for Docker Hub.
+          "registryUrl": "docker.io",
+          // The pre-version command is run before versioning, useful for verifying the Docker image.
+          "groupPreVersionCommand": "echo BEFORE VERSIONING",
+        },
+        "changelog": {
+          "projectChangelogs": true,
+        },
+      },
+    },
+  },
+}
+```
+
+
+
+
+
+
+
+
+
+## Related
+- docs\features\releases\general.md
