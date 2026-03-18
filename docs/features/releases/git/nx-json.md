@@ -24,3 +24,17 @@
   },
 }
 ```
+
+##### commitMessage
+```json
+{
+  "release": {
+    "releaseTag": {
+      "pattern": "release/{version}"
+    },
+    "git": {
+      "commitMessage": "chore(release): {version}"
+    }
+  }
+}
+```

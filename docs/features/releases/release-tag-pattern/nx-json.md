@@ -7,13 +7,19 @@
 #### releaseTagPattern
 - https://nx.dev/docs/reference/nx-json#release-tag
 
+
+NX > 22
 ```json
 {
-	"release": {
-		"version": {
-			"conventionalCommits": true
-		},
-		"releaseTagPattern": "v{version}"
-	}
+  "release": {
+    "releaseTag": {
+      "pattern": "release/{version}"
+    },
+    "git": {
+      "commitMessage": "chore(release): {version}"
+    }
+  }
 }
 ```
+
+
